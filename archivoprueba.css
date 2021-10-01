@@ -35,3 +35,5 @@ body {
 h3 {
     color: white; text-shadow: black 0.1em 0.1em 0.2em;
 }
+h2 {color: black; text-shadow: white 0.1em 0.1em 0.2em;
+}
