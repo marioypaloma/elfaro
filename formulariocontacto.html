@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL FARO</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="contacto.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+<link  rel="icon"   href="faroimg.png" type="image/png" />
+</head>
+<body> 
+
+  <!-- Navbar inicio-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">EL FARO</a>
+          <img src="./faroimg.png" alt="logo" style= "max-height:60px; max-width: 60px;" >
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Negocios</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Deportes</a>
+              </li>
+              
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="..." aria-label="...">
+              <button class="btn btn-outline-success" style= "border: red; color: rgb(165, 77, 77);" type="submit">Buscar</button> 
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar fin-->
+
+
+
+    
+<!-- header inicio -->
+    <div class="card">
+      
+      <div class="card-header">
+        <em>Las noticias de hoy, para ti.</em>
+      </div>
+      
+    </div>
+    <!-- header fin -->
+
+    <!--formulario inicio-->
+
+
+    <div class="contact_form">
+
+        <div class="formulario">      
+          <h1>Datos de contacto</h1>
+            <h3>Escríbenos para ponernos en contacto contigo!</h3>
+    
+    
+              <form action="submeter-formulario.php" method="post">       
+    
+                
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre 
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                        <label for="apellido" class="colocar_apellido">Apellido
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="text" name="introducir_apellido" id="apellido" required="obligatorio" placeholder="Escribe tu apellido">
+                      </p>
+
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                     
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Dejanos aquí tu comentario..."></textarea> 
+                                    </p>                    
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+                
+              </form>
+        </div>  
+      </div>
+    <!--formulario fin-->
+
+
+
+<!-- footer inicio  -->
+<div class="card">
+  <div class="card-header">
+    <em> Cuidarnos, es tarea de todos. Manten la distancia.</em>
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <h3>EL FARO <img src="faroimg.png" alt="logo" style= "max-height:45px; max-width: 45px;"></h3>
+      
+      <footer class="blockquote-footer">Las noticias de hoy para ti. <cite title="Source Title">Todos los derechos reservados.</cite></footer>
+    </blockquote>
+  </div>
+</div>
+<!-- footer fin -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    
+</body>
+</html>
