@@ -1,0 +1,34 @@
+body {
+    font-family: 'Playfair Display', serif;
+    
+}
+.card-header{
+    color: grey;
+}
+
+
+.container-clock h1{
+    display: flex;
+    
+    font-size: 25px;
+    
+    
+    justify-content: center;
+    
+    font-family: "lato";
+    
+}
+.container-clock p{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.card-body {
+    justify-content: center;
+    text-align: center;
+}
+.EnviarNoticia {
+    justify-content: center;
+}
